@@ -1,5 +1,9 @@
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+import DefaultLayout from '~/layouts/default'
 
-export default MyApp
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <DefaultLayout>
+      <Component {...pageProps} />
+    </DefaultLayout>
+  )
+}

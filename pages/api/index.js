@@ -1,3 +1,5 @@
-export default handler = (req, res) => {
+const handler = (req, res) => {
   
 }
+
+export default handler

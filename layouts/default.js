@@ -1,9 +1,12 @@
+import Header from '~/components/Common/Header'
+import Footer from '~/components/Common/Footer'
+
 export default function DefaultLayout({children}) {
   return (
     <>
-      <header>Header</header>
+      <Header />
       <div>{children}</div>
-      <footer>Footer</footer>
+      <Footer />
     </>
   )
 }

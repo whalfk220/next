@@ -1,0 +1,9 @@
+@import url('~/styles/common/reset.css');
+
+header {
+  height: 50px;
+}
+
+footer {
+  height: 50px;
+}

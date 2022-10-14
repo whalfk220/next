@@ -1,5 +1,7 @@
-const handler = (req, res) => {
+const handler = async (req, res) => {
   const { userId } = req.query
+
+  await new Promise(r => setTimeout(r, 1000 * 2))
 
   res.send({
     user: {

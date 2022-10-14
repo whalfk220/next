@@ -1,9 +1,11 @@
 import ContentStyle from '~/styles/home/Content.module.css'
 
-export default function Content() {
+const Content = () => {
   return (
     <div>
       MAIN Content
     </div>
   )
 }
+
+export default Content

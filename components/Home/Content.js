@@ -2,8 +2,8 @@ import ContentStyle from '~/styles/home/Content.module.css'
 
 export default function Content() {
   return (
-    <section id="main">
+    <div>
       MAIN Content
-    </section>
+    </div>
   )
 }

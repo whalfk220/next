@@ -1,11 +1,10 @@
-import Gnb from '~/components/Home/Gnb'
+import Transition from '~/components/Common/Transition'
 import Content from '~/components/Home/Content'
 
-export default function Home() {
-  return (
-    <div>
-      <Gnb />
-      <Content />
-    </div>
-  )
-}
+const Home = () => (
+  <Transition>
+    <Content />
+  </Transition>
+)
+
+export default Home

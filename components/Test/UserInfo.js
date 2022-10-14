@@ -3,7 +3,10 @@ import {
 } from "react"
 import axios from 'axios'
 
-const UserInfo = () => {
+// pages/test/index.js에서 getInitialProps로 받아온 데이터
+const UserInfo = ({
+  u,
+}) => {
   /* State */
   const [
     userId,
@@ -13,7 +16,7 @@ const UserInfo = () => {
   const [
     userInfo,
     setUserInfo,
-  ] = useState({})
+  ] = useState(u)
 
   /* Function */
   const handleChangeUserId = event => {

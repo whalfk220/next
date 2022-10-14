@@ -1,9 +1,57 @@
 @import url('~/styles/common/reset.css');
 
+#wrapper {
+  padding-top: 100px;
+  position: relative;
+}
+
+.page-wrap {
+  min-height: 100vh;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
 header {
   height: 50px;
+  padding: 5px 20px;
+  line-height: 40px;
+  color: #FFF;
+  background-color: #1F1F1F;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 
 footer {
   height: 50px;
+  margin-top: 50px;
+  padding: 5px 20px;
+}
+
+#gnb {
+  height: 34px;
+  padding: 0 8px;
+  background-color: #DDD;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+#gnb a {
+  padding: 5px 12px;
+  border-radius: 4px;
+  color: #cd3d65;
+  transition: background-color .2s;
+  vertical-align: middle;
+  display: inline-block;
+}
+#gnb a:hover {
+  background-color: rgba(255, 255, 255, .5);
+}
+#gnb a:active {
+  background-color: rgba(120, 120, 120, .3);
 }

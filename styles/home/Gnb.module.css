@@ -3,3 +3,11 @@
  */
 @import url('~/styles/home/_common.css');
 
+.gnb {
+  margin: 10px 0;
+}
+
+.link {
+  padding: 5px 12px;
+  color: #cd3d65;
+}

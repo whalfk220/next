@@ -3,10 +3,17 @@ import Transition from '~/components/Common/Transition'
 const Loading = () => (
   <Transition>
     <div style={{
-      height: '100vh',
+      width: '100%',
+      height: '100%',
+      backgroundColor: 'rgba(255, 255, 255, .2)',
+      backdropFilter: 'blur(1px)',
+      position: 'fixed',
+      top: 0,
+      left: 0,
       justifyContent: 'center',
       alignItems: 'center',
       display: 'flex',
+      zIndex: 999999,
     }}>
       <h2>Loading...</h2>
     </div>
